@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bastian - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Bastian<span>.Sitanggang</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#projects">Proyek</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="container hero-container">
+            <div class="hero-text">
+                <span class="status-badge">Available for Internship</span>
+                <h1>Engineering the <br> <span class="highlight">Future of IoT & Web</span></h1>
+                <p>Halo, saya <b>Bastian</b>. Mahasiswa Semester 5 Teknologi Komputer. Saya membangun jembatan antara perangkat keras (IoT) dan web modern yang responsif.</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">Lihat Proyek</a>
+                    <a href="#contact" class="btn btn-outline">Hubungi Saya</a>
+                </div>
+                <div class="socials">
+                    <a href="https://github.com/bastiann018" target="_blank" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/bastian-sitanggang-424622288/" target="_blank" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.instagram.com/bastian.sitanggang/" target="_blank" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-img">
+                <div class="img-box">
+                    <img src="profile.jpg" alt="Foto Bastian">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="skills">
+        <div class="container">
+            <h2 class="section-title">Keahlian Teknis</h2>
+            <div class="skills-grid">
+                
+                <div class="skill-card">
+                    <i class="fas fa-code icon"></i>
+                    <h3>Web Development</h3>
+                    <p>HTML, CSS, JavaScript (React/Next.js). Membangun tampilan web yang modern dan responsif.</p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fas fa-microchip icon"></i>
+                    <h3>IoT Systems</h3>
+                    <p>ESP32, Arduino, Sensors. Integrasi perangkat keras ke cloud via protokol MQTT.</p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fas fa-server icon"></i>
+                    <h3>Backend</h3>
+                    <p>PHP (Laravel), MySQL. Membuat REST API aman dan manajemen database yang efisien.</p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fas fa-infinity icon"></i>
+                    <h3>DevOps</h3>
+                    <p>Docker, Git, CI/CD. Mengelola deployment aplikasi agar berjalan lancar di server.</p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fas fa-bug icon"></i>
+                    <h3>Quality Assurance</h3>
+                    <p>Testing & Debugging. Memastikan aplikasi bebas bug dan berjalan sesuai standar kualitas.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Proyek Pilihan</h2>
+            <div class="project-grid">
+                
+                <div class="project-card">
+                    <div class="card-image">
+                        <img src="proyek1.jpg" alt="Web Job Info">
+                    </div>
+                    <div class="card-body">
+                        <h3>Job Info Teknologi Komputer</h3>
+                        <p>Website portal informasi lowongan kerja dan magang khusus mahasiswa Teknologi Komputer.</p>
+                        
+                        <div class="card-footer">
+                            <div class="tech-stack">
+                                <span>Wordpress</span>
+                                <span>HTML</span>
+                                <span>CSS</span>
+                            </div>
+                            <a href="#" class="read-more">Lihat Detail <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="card-image">
+                        <img src="proyek2.jpg" alt="IoT Weather">
+                    </div>
+                    <div class="card-body">
+                        <h3>IoT Weather Data Collector</h3>
+                        <p>Sistem IoT pemantau suhu & kelembaban real-time untuk analisis lingkungan.</p>
+                        
+                        <div class="card-footer">
+                            <div class="tech-stack">
+                                <span>ESP32</span>
+                                <span>Python</span>
+                                <span>Sensors</span>
+                            </div>
+                            <a href="https://github.com/bastiann018/IoT-Weather-Data-Collector" target="_blank" class="read-more">Lihat Detail <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="card-image">
+                        <img src="proyek3.jpg" alt="Self-Sufficient IoT Weather Station">
+                    </div>
+                    <div class="card-body">
+                        <h3>Self-Sufficient IoT Weather Station</h3>
+                        <p>Stasiun pemantau cuaca otonom bertenaga surya yang menyediakan layanan data cuaca (Data as a Service) berbasis IoT.</p>
+                        
+                        <div class="card-footer">
+                            <div class="tech-stack">
+                                <span>ESP32</span>
+                                <span>Solar Power</span>
+                                <span>IoT / DaaS</span>
+                            </div>
+                            <a href="https://github.com/bastiann018/SELF-SUFFICIENT-IoT-WEATHER-MONITORING-FOR-WEATHER-DATA-AS-A-SERVICE" target="_blank" class="read-more">Lihat Detail <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="card-image">
+                        <img src="proyek4.jpg" alt="Proyek Keempat">
+                    </div>
+                    <div class="card-body">
+                        <h3>Link Shortener App</h3>
+                        <p>Aplikasi pemendek URL modern, dibangun menggunakan PHP Native, MySQL (PDO), dan diisolasi menggunakan Docker.</p>
+                        
+                        <div class="card-footer">
+                            <div class="tech-stack">
+                                <span>PHP</span>
+                                <span>MySQL</span>
+                                <span>Docker</span>
+                            </div>
+                            <a href="https://github.com/bastiann018/link-shortener-app018" target="_blank" class="read-more">Lihat Detail <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-header">
+                <span class="sub-title">CONTACT</span>
+                <h2 class="section-title">Hubungi Saya</h2>
+                <p class="contact-desc">Saya sangat senang mendengar dari Anda. Silakan hubungi saya untuk kolaborasi, proyek, atau sekadar menyapa.</p>
+            </div>
+
+            <form class="contact-form" action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Nama</label>
+                    <input type="text" id="name" name="name" placeholder="Masukkan nama Anda" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="contoh@email.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Pesan</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Tuliskan pesan Anda di sini..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn-submit">Kirim Pesan</button>
+            </form>
+
+            <div class="direct-contact">
+                <p>Atau hubungi saya langsung melalui:</p>
+                <div class="contact-icons">
+                    <a href="mailto:bastiansitanggang09102005@gmail.com" title="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    
+                    <a href="https://wa.me/6282210492792" target="_blank" title="WhatsApp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/bastian-sitanggang-424622288/" target="_blank" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+
+                    <a href="https://github.com/bastiann018" target="_blank" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/bastian.sitanggang/" target="_blank" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <div id="imageModal" class="modal">
+        <span class="close-btn">&times;</span>
+        <img class="modal-content" id="fullImage">
+        <div id="caption"></div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Bastian. Dibuat dengan HTML & CSS.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
