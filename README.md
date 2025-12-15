@@ -9,6 +9,10 @@ Selamat datang di repository website portofolio pribadi saya. Website ini diranc
 - **Contact Form:** Formulir kontak terintegrasi.
 - **Direct Download:** Fitur unduh CV langsung.
 
+## 🔗 Live Demo (Link Website)
+Klik link di bawah ini untuk melihat website:
+> **[🌐 https://bastiann018.github.io/portofolio-saya/](https://bastiann018.github.io/portofolio-saya/)**
+
 ## 🛠️ Teknologi yang Digunakan
 - **HTML5:** Struktur semantik.
 - **CSS3:** Styling modern (Flexbox & Grid), tanpa framework CSS.
@@ -16,3 +20,11 @@ Selamat datang di repository website portofolio pribadi saya. Website ini diranc
 - **FontAwesome:** Ikon vektor.
 
 ## 📂 Struktur Folder
+```text
+/
+├── index.html      # Halaman utama
+├── style.css       # File gaya/desain
+├── script.js       # Logika interaksi
+├── profile.jpg     # Foto profil
+├── cv-bastian.pdf  # Curriculum Vitae
+└── assets/         # (Gambar-gambar proyek)
