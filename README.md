@@ -11,7 +11,7 @@ Selamat datang di repository website portofolio pribadi saya. Website ini diranc
 
 ## 🔗 Live Demo (Link Website)
 Klik link di bawah ini untuk melihat website:
-> **[🌐 https://bastiann018.github.io/portofolio-saya/](https://bastiann018.github.io/portofolio-saya/)**
+> **[🌐 https://bastiann018.github.io/portofolio-bastian/](https://bastiann018.github.io/portofolio-bastian/)**
 
 ## 🛠️ Teknologi yang Digunakan
 - **HTML5:** Struktur semantik.
